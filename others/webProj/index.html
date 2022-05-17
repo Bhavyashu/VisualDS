@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stella's Academy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/remarkable-helper.css">
+    <link rel="stylesheet" href="css/comment-helper.css">
+    <link rel="stylesheet" href="css/contact-helper.css">
+    <link rel="stylesheet" href="css/offer-helper.css">
+    <link rel="stylesheet" href="css/footer-helper.css">
+
+    <link rel="icon" href="img/static/eagle.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+
+    <div id="logoholder">
+        <img src="./img/static/eagle.png" />
+    </div>
+    <div id="topbanner">
+        <div class="opacitylayer"></div>
+
+        <div id="bannerinfo">
+            <img src="./img/static/eagle.png" id="eagle" />
+            <h1>Welcome to Stella's Academy</h1>
+            <p>Register Today to get the best of us and stay updated with out latest courses and offerings.</p>
+        </div>
+        <div id="contactform">
+            <label id="startedmessage">Contact Us</label>
+
+            <label id="responsemessage">Hello</label>
+
+            <div class="inputcontainer">
+                <input id="firstname" class="inputs" type="text" placeholder="First Name*" maxlength="50">
+            </div>
+
+            <div class="inputcontainer">
+                <input id="lastname" class="inputs" type="text" placeholder="Last Name*" maxlength="50">
+
+            </div>
+
+            <div class="inputcontainer">
+                <input id="email" class="inputs" type="email" placeholder="Email*" maxlength="50">
+
+            </div>
+
+            <div class="inputcontainer">
+                <input id="contactfield" class="inputs" type="text" placeholder="Phone number*" maxlength="15">
+
+            </div>
+
+            <div class="inputcontainer">
+                <input id="occupation" class="inputs" type="text" placeholder="Occupation*" maxlength="50">
+
+            </div>
+
+            <div id="noteholder">
+
+                <textarea id="notearea" placeholder="Add note for us here." maxlength="100"></textarea>
+            </div>
+
+            <div id="send-container">
+                <button class="sendbutton topbtn" onclick="clickSend()">Send</button>
+                <button title="Add note for us" id="notebtn"><img src="img/ico/pen.ico" id="pencil-icon"></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="remarkable-cont">
+        <label id="remarklabel">Our remarkable users.</label>
+
+        <div id="remarkable">
+
+            <div class="remarkable-inner-cont">
+
+                <div class="imgcontainer">
+                    <div class="overlayer"></div>
+                    <img class="remarkable-img" src="./img/userphoto/1.jpg" />
+                    <label class="usermarks">87.89%</label>
+                </div>
+                <label>Jessica</label>
+            </div>
+            <div class="remarkable-inner-cont">
+                <div class="imgcontainer">
+                    <div class="overlayer"></div>
+                    <img class="remarkable-img" src="./img/userphoto/2.png" />
+                    <label class="usermarks">90.11%</label>
+                </div>
+                <label>Arnold</label>
+            </div>
+            <div class="remarkable-inner-cont">
+                <div class="imgcontainer">
+                    <div class="overlayer"></div>
+                    <img class="remarkable-img" src="./img/userphoto/3.png" />
+                    <label class="usermarks">94.44%</label>
+                </div>
+                <label>David</label>
+            </div>
+            <div class="remarkable-inner-cont">
+                <div class="imgcontainer">
+                    <div class="overlayer"></div>
+                    <img class="remarkable-img" src="./img/userphoto/4.png" />
+                    <label class="usermarks">87.1%</label>
+                </div>
+                <label>Günther</label>
+            </div>
+        </div>
+        <label id="remark-end-message">So many to list them here!</label>
+    </div>
+    <div id="offer-cont">
+        <div class="opacitylayer"></div>
+        <label class="offerlabel">What do we offer?</label>
+
+        <div class="offer">
+
+            <div class="offer-inner-cont">
+                <label class="offerhead">Data Structures</label>
+                <div class="offer-data">
+                    <p>We offer our users Data Structures and Algorithms so that they are well trained for the competitive events like hackathon.</p>
+                </div>
+            </div>
+
+            <div class="offer-inner-cont">
+                <label class="offerhead">Mathematics</label>
+                <div class="offer-data">
+                    <p>We guide our user in core of all subjects that is Mathematics, learn and practice it in a fun way.
+                    </p>
+                </div>
+            </div>
+
+            <div class="offer-inner-cont">
+                <label class="offerhead">Science</label>
+                <div class="offer-data">
+                    <p>We offer Physics Chemistry in same learning portal so that user wont have to choose seperate portal for these 2 important subjects.</p>
+                </div>
+            </div>
+            <div class="offer-inner-cont">
+                <label class="offerhead">Programming</label>
+                <div class="offer-data">
+                    <p>We understand modern day needs thats why we offer 20+ programming language courses.</p>
+                </div>
+            </div>
+
+            <div class="offer-inner-cont">
+                <label class="offerhead">Mock Test</label>
+                <div class="offer-data">
+                    <p>Mock test let you judge yourself , howfar you came and how far you have to go.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="sendbutton middlebtn">Book
+            a Free trial Today and get Best offer!</button>
+    </div>
+    <div id="comment-cont">
+        <div class="opacitylayer" id="backgroundopacity"></div>
+        <label id="feedbacklabel">What our users say
+            about us ?</label>
+
+        <div id="comment">
+
+            <div class="comment-inner-cont">
+                <p class="comment-data">No more math phobia!</p>
+                <div class="commentator">
+                    <img class="commentator-image" src="./img/userphoto/1.jpg" />
+                    <label class="namelabel">Jessica</label>
+                </div>
+
+            </div>
+
+            <div class="comment-inner-cont">
+                <p class="comment-data"> A very good platform to learn about programming, Doubts clearing session is good. </p>
+
+                <div class="commentator">
+                    <img class="commentator-image" src="./img/userphoto/4.png" />
+                    <label class="namelabel">Günther</label>
+                </div>
+
+            </div>
+
+            <div class="comment-inner-cont">
+                <p class="comment-data">Mock tests are design in such a perfect way here you can analyse yourself without anyone's need or you want assistance they are always ready to sort it out .</p>
+                <div class="commentator">
+                    <img class="commentator-image" src="./img/userphoto/2.png" />
+                    <label class="namelabel">Arnold</label>
+                </div>
+            </div>
+
+            <div class="comment-inner-cont">
+                <p class="comment-data">They provide best interface for data structures and algorithma in an interactive and animated way where you can study the topic deep and thoroghly.</p>
+                <div class="commentator">
+                    <img class="commentator-image" src="./img/userphoto/3.png" />
+                    <label class="namelabel">David</label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="coach-cont">
+
+        <div class="opacitylayer coach-opacity"></div>
+        <label class="coacheslabel">Our Coaches</label>
+
+        <div id="remarkable">
+            <div class="remarkable-inner-cont">
+                <div class="imgcontainer">
+                    <div class="overlayer"></div>
+                    <img class="remarkable-img" src="./img/userphoto/p1.jpg" />
+                    <label class="usermarks">Maths</label>
+                </div>
+                <label>Rebecca Hills</label>
+            </div>
+            <div class="remarkable-inner-cont">
+                <div class="imgcontainer">
+                    <div class="overlayer"></div>
+                    <img class="remarkable-img" src="./img/userphoto/p2.jpg" />
+                    <label class="usermarks">Computer Science</label>
+                </div>
+                <label>Rebecca Hills</label>
+            </div>
+
+        </div>
+
+    </div>
+
+    <button class="sendbutton bottombtn">Book a Free trial Today and get Best offer!</button>
+
+    <div id="footer-cont">
+
+        <div class="opacitylayer footer-opacity"></div>
+        <label class="coacheslabel">Reach us</label>
+
+        <div id="footer">
+
+            <div class="remarkable-inner-cont footer-inner-cont">
+                <div class="imgcontainer">
+                    <div class="overlayer"></div>
+                    <img class="remarkable-img" src="./img/static/fb.png" />
+
+                </div>
+
+            </div>
+
+            <div class="remarkable-inner-cont footer-inner-cont">
+                <div class="imgcontainer">
+                    <div class="overlayer"></div>
+                    <img class="remarkable-img" src="./img/static/ty.png" />
+
+                </div>
+
+            </div>
+
+            <div class="remarkable-inner-cont footer-inner-cont">
+                <div class="imgcontainer">
+                    <div class="overlayer"></div>
+                    <img class="remarkable-img" src="./img/static/twitter.png" />
+
+                </div>
+
+            </div>
+        </div>
+
+        <p class="address">Address : 123, ABC valley, CA</p>
+
+        <div class="copyrightholder">
+            <p class="copyright">Copyright 2021 Stella's Academy</p>
+        </div>
+
+    </div>
+
+    <script src="script/script.js"></script>
+    <script src="script/events.js"></script>
+</body>
+
+</html>
